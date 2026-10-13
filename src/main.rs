@@ -1,3 +1,6 @@
+use std::env;
+mod human;
+
 fn main() {
-    println!("Hello, world!");
+    let arges: Vec<String> = env::args().collect();
 }
